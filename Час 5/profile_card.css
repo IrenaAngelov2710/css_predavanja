@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(to bottom, #b39ddb, #f48fb1, #ffcc80);
+}
+
+.card-container {
+    width:500px;
+    height: 400px;
+    background-color: #ffffff;
+    margin: 100px auto;
+    border-radius: 10px;
+    position: relative;
+}
+
+.img-round {
+    position: absolute;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    top: -58px;
+    /* ova isto taka raboti */
+    /* bottom: 340px; */
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid rgb(133, 49, 133);
+    background-image: url("https://manuelgarcia.info/media/mgres/mg-white.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 20px 2px #9e52e5;
+}
+
+.card-content {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    width: 450px;
+    height: 310px;
+    margin: 0 auto;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+}
+
+.details {
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h3 {
+    color: rgb(133, 49, 133);
+}
+
+.country {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.additional-info {
+    width: 310px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info p {
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.info span {
+    font-size: 12px;
+    color: gray;
+}
+
+.social-media-links {
+    width: 390px;
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.buttons {
+    width: 310px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 130px;
+    height: 35px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+}
+
+.message-btn {
+    background: linear-gradient(to right, #3b5998, #6699cc);
+}
+
+.follow-btn {
+    background: linear-gradient(to right, #f58529, #f4b17b);
+}

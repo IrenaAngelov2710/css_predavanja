@@ -1,0 +1,37 @@
+/* Ova e CSS pravilo koe se primenuva na ekrani so sirina do 760px */
+/* Koga ekranot ja ima ovaa max sirina ili pomala, sekoj elemen h1 na web stranata ke ima crvena boja */
+/* @media screen and (max-width: 760px) {
+    h1 {
+        color: red;
+    }
+} */
+
+/* Ova e CSS pravilo koe se primenuva na ekrani so sirina od 600px */
+/* Koga ekranot ja ima ovaa min sirina ili pogolema, sekoj elemen h1 na web stranata ke ima zelena boja */
+/* @media screen and (min-height: 600px) {
+    h1 {
+        color: green;
+    } */
+
+    .container {
+        display: flex;
+        gap: 10px;
+    }
+
+    .box {
+        width: 100px;
+        height: 100px;
+        background-color: aquamarine;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 900px) {
+        .container {
+            flex-direction: column;
+        }
+
+        .box {
+            color: purple;
+            font-size: 25px;
+            text-align: center;
+        }
+    }

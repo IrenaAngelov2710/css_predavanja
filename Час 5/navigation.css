@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+}
+
+.logo-img {
+    width: 70px;
+    height: 40px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(130, 94, 164);
+    padding: 0 60px;
+    font-family: sans-serif;
+}
+
+ul {
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none; /*za da gi nema tockite*/
+}
+
+a:hover {
+    color: red;
+    cursor: pointer;
+}
